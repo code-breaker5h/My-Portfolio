@@ -196,9 +196,9 @@ function SplashCursor({
       return {
         gl,
         ext: {
-          formatRGBA,
-          formatRG,
-          formatR,
+          formatRGBA: formatRGBA || { internalFormat: gl.RGBA, format: gl.RGBA },
+          formatRG: formatRG || { internalFormat: gl.RGBA, format: gl.RGBA },
+          formatR: formatR || { internalFormat: gl.RGBA, format: gl.RGBA },
           halfFloatTexType,
           supportLinearFiltering,
         },
