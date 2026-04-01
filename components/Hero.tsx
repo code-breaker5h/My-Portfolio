@@ -1,9 +1,13 @@
 import { FaLocationArrow } from "react-icons/fa6";
+import dynamic from "next/dynamic";
 
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import LightRays from "./ui/LightRays";
+
+const LightRays = dynamic(() => import("./ui/LightRays"), {
+  ssr: false,
+});
 
 const Hero = () => {
   return (
