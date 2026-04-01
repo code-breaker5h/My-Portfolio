@@ -905,7 +905,7 @@ function SplashCursor({
     const initFramebuffers = () => {
       const simRes = getResolution(config.SIM_RESOLUTION);
       const dyeRes = getResolution(config.DYE_RESOLUTION);
-      const texType = ext.halfFloatTexType;
+      const texType = ext.halfFloatTexType || gl.FLOAT;
       const rgba = ext.formatRGBA;
       const rg = ext.formatRG;
       const r = ext.formatR;
