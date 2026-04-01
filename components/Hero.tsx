@@ -3,10 +3,28 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import LightRays from "./ui/LightRays";
 
 const Hero = () => {
   return (
     <div className="pb-20 pt-36">
+      <div className="fixed top-0 left-0 w-full h-96 z-0">
+        <LightRays
+          raysOrigin="top-center"
+          raysColor="#8b5cf6"
+          raysSpeed={2}
+          lightSpread={1.5}
+          rayLength={1.5}
+          pulsating={true}
+          fadeDistance={0.8}
+          saturation={1.2}
+          followMouse={true}
+          mouseInfluence={0.1}
+          noiseAmount={0.1}
+          distortion={0.2}
+          className="w-full h-full"
+        />
+      </div>
       {/**
        *  UI: Spotlights
        *  Link: https://ui.aceternity.com/components/spotlight
@@ -43,7 +61,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Building Beautiful, Functional Digital Products
           </p>
 
           {/**
@@ -52,12 +70,12 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Turning Ideas Into Beautiful, Accessible Digital Experiences"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I&apos;m Naman Verma, based in Haryana, India.
           </p>
 
           <a href="#about">

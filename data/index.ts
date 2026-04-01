@@ -1,14 +1,14 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "I prioritize solving real problems with creative & scalable solutions ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +18,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "I'm based in Haryana, India and very flexible with communications",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -29,7 +29,7 @@ export const gridItems = [
   {
     id: 3,
     title: "My tech stack",
-    description: "I constantly try to improve",
+    description: "React, Next.js, TypeScript, and more",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +38,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "UI/UX Designer & Full Stack Developer",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -49,8 +49,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "Currently working on indie projects that make a real impact",
+    description: "Building solutions for accessibility & security",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Ready to collaborate? Let's build something great!",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,68 +72,73 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "InternShield - Fake Internship Detector",
+    des: "A smart platform that helps students identify and avoid fake internship scams using AI-powered verification and community reports.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/fm.svg"],
+    link: "https://internshield.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "SignBridge - Breaking Communication Barriers",
+    des: "An innovative web application that enables deaf and speech-impaired individuals to communicate seamlessly with hearing people through AI-powered sign language and speech recognition.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/fm.svg", "/c.svg"],
+    link: "https://signbridge-two.vercel.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "Personal Secure Portal",
+    des: "A secure personal website with email and password authentication. Only authorized users can access and view personalized content.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/next.svg", "/c.svg"],
+    link: "https://website-six-coral-43.vercel.app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "Modern Portfolio Website",
+    des: "A modern, animated portfolio showcasing projects with smooth transitions, interactive elements, and a sleek design using Next.js and cutting-edge web technologies.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/re.svg", "/fm.svg"],
+    link: "#",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Naman's ability to understand complex accessibility challenges and translate them into seamless technical solutions is remarkable. His work on SignBridge truly makes a difference in people's lives.",
+    name: "Priya Singh",
+    title: "Accessibility Advocate",
+    img: "https://api.dicebear.com/7.x/avataaars/svg?seed=Priya",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Naman on InternShield was a game-changer. His attention to detail and commitment to solving real problems is outstanding. He's a developer who genuinely cares about impact.",
+    name: "Raj Patel",
+    title: "Student Ambassador",
+    img: "https://api.dicebear.com/7.x/avataaars/svg?seed=Raj",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Naman is a talented UI/UX designer and developer who combines creativity with technical excellence. His portfolio projects demonstrate both innovation and practical problem-solving.",
+    name: "Aisha Khan",
+    title: "Tech Lead, Startup Hub",
+    img: "https://api.dicebear.com/7.x/avataaars/svg?seed=Aisha",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "From concept to deployment, Naman delivers projects with professionalism and precision. His passion for learning and building impactful solutions is truly inspiring.",
+    name: "Vikram Sharma",
+    title: "Project Manager",
+    img: "https://api.dicebear.com/7.x/avataaars/svg?seed=Vikram",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Naman's work on security and authentication for the personal portal shows his understanding of critical web development practices. Highly recommended!",
+    name: "Neha Gupta",
+    title: "Security Consultant",
+    img: "https://api.dicebear.com/7.x/avataaars/svg?seed=Neha",
   },
 ];
 
@@ -173,29 +178,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "UI/UX Designer & Developer",
+    desc: "Designed and developed user-centric interfaces with focus on accessibility and user experience across multiple projects.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Full Stack Developer",
+    desc: "Built end-to-end web applications using React, Next.js, and backend technologies with responsive design.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Impact-Driven Project Creator",
+    des: "Led development of social impact projects including InternShield and SignBridge, focusing on solving real-world problems.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "BTech Student, JCBUST",
+    desc: "Pursuing Computer Science & Engineering with specialization in web development and AI/ML technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +210,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/naman5h",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/insta.svg",
+    link: "https://instagram.com/naman.pi",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/namanpi",
   },
 ];
