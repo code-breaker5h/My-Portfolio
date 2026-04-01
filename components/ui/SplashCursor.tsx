@@ -135,7 +135,7 @@ function SplashCursor({
         preserveDrawingBuffer: false,
       };
 
-      let gl = canvas.getContext(
+      let gl: any = canvas.getContext(
         "webgl2",
         params as any,
       ) as WebGL2RenderingContext;
@@ -145,7 +145,7 @@ function SplashCursor({
           canvas.getContext(
             "experimental-webgl",
             params as any,
-          )) as WebGLRenderingContext;
+          )) as any;
 
       let halfFloat;
       let supportLinearFiltering;
