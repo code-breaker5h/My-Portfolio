@@ -1,5 +1,6 @@
 "use client";
 
+import dynamic from "next/dynamic";
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
@@ -8,7 +9,10 @@ import Footer from "@/components/Footer";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import SplashCursor from "@/components/ui/SplashCursor";
+
+const SplashCursor = dynamic(() => import("@/components/ui/SplashCursor"), {
+  ssr: false,
+});
 
 const Home = () => {
   return (
